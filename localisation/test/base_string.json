@@ -1,0 +1,8 @@
+{
+ "strings":[
+	 {
+	   "key"   : "app.register.form.firstname",
+	   "value" : "Enter First Name "
+	 }
+ ]
+}

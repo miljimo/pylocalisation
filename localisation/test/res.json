@@ -1,0 +1,20 @@
+{
+  "merge_resources":[
+    {
+	 "filename" : "base_string.json"
+	}
+  ],
+  "strings"  :[
+    {
+    "key"   : "app.text.name",
+	"value" : "Login Security"
+    },
+	{
+	  "key" : "login.username",
+	  "value": "Username"
+	},
+	{
+	  "key"  : "login.password",
+	  "value": "Password"
+	}]
+}
