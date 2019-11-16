@@ -1,0 +1,31 @@
+{
+  "strings":[
+    {
+	  "key"  :"App",
+	  "value": "What can I not do"
+	},
+	{
+    "key"   : "base.title.width",
+	"value" : "Multi string object"
+    }
+  ],
+  "colours":[
+  {
+   "key" : "primary.colour",
+   "red" : 123,
+   "green":82,
+   "blue" :87,
+   "alpha" : 255,
+   "html_colour": "#FF00982"
+  },
+  {
+   "key" : "primary.colour.light",
+   "red" : 123,
+   "green":82,
+   "blue" :87,
+   "alpha" : 255,
+   "html_colour": "#FF00982"
+  }]
+  
+  
+}

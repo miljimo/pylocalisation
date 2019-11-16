@@ -7,7 +7,7 @@
   "strings"  :[
     {
     "key"   : "app.text.name",
-	"value" : "Login Security"
+	"value" : "Application Title"
     },
 	{
 	  "key" : "login.username",

@@ -1,4 +1,9 @@
 {
+"merge_resources":[
+    {
+	 "filename" : "base_string_parent.json"
+	}
+  ],
  "strings":[
 	 {
 	   "key"   : "app.register.form.firstname",
