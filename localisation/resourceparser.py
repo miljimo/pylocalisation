@@ -14,7 +14,6 @@ class ResourceParser(IBaseParser):
     __RESOURCE_TYPES__                 = ['strings',
                                           'merge_resources',
                                           'colours']
-    
     __ACCEPTED_STRING_FIELDS__         = ["key", "value"];
     __ACCEPTED_MERGE_RESOURCE_FLIEDS__ = ['filename']
 

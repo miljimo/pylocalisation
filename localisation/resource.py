@@ -22,14 +22,16 @@ class Resource(IResource):
     def Filename(self):
         return self.__Filename;
   
-    def Get(self, key):
-        result  = None;
+    def Get(self, key, default_value: object = None):
+        result  =  default_value;
         if(key in self.__Resources):
             result =  self.__Resources[key];
         if(result == None):
             if(len(self.Merges) > 0):
                 result  =  self.__FindInMergeResources(key);
         return result;
+
+    
     
     @property
     def Merges(self):
