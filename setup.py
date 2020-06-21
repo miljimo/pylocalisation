@@ -13,13 +13,12 @@ setuptools.setup(name = "localisation-jimobama",
       author="Obaro I. Johnson",
       author_email="johnson.obaro@hotmail.com",
       packages=['localisation', ],
-      install_requires=['mpi4py>=2.0',
-                       ],
+      install_requires=[],
       classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
          
-    ],python_requires='>=2.0');
+    ],python_requires='>=3.0');
 
 
